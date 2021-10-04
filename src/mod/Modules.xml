@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<Root>
+	<Module 	
+		name = "Eval"
+		movie       = "Eval\Eval.swf"
+		flags       = "GMF_DONT_UNLOAD"
+		variable    = "Eval" />
+</Root>
