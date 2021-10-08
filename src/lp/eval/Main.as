@@ -58,9 +58,9 @@ class lp.eval.Main {
         UtilsBase.PrintChatText("Eval_Function: " + functionValue);
         UtilsBase.PrintChatText("Eval_Arguments: " + argumentsValue);
         UtilsBase.PrintChatText("Eval_Return: " + returnValue);
-        if (evalResult) {
+        if (evalResult != null && evalResult != undefined) {
             UtilsBase.PrintChatText("======== Output ========");
-            UtilsBase.PrintChatText(evalResult);
+            UtilsBase.PrintChatText(JSON.stringify(evalResult));
         } else {
             UtilsBase.PrintChatText("No output");
         }

@@ -27,6 +27,5 @@ The following code will be executed:
     var args = parseJson('["json expression", "of arguments object"]');
     this.result = fun.apply(this, args);
 
-    printToChat(eval("this.result.eval.expression"))
-
-
+    var output toJson(eval("this.result.eval.expression"))
+    printToChat(output)
